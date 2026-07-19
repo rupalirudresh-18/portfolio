@@ -117,8 +117,7 @@ const portfolioData = {
     "Tailwind CSS"
   ],
   images: [
-    "images/homepage.png",
-    "images/analysis.png"
+    "images/homepage.png"
   ],
   demo: "https://arca-frontend-xxxx.onrender.com",
   github: "https://github.com/rupalirudresh-18/Arca"
