@@ -81,27 +81,7 @@ const portfolioData = {
   demo: " https://librarymanagementsystem-production-03c7.up.railway.app",
   github: "https://github.com/rupalirudresh-18/Library_Management_System"
 },
-
-    {
-       status: "Personal Project",
-    title: "MediCue — AI-Integrated Healthcare Assistant",
-    subtitle: "Intelligent Healthcare Information System",
-    desc: "Developed an AI-powered healthcare web application that simplifies medical information by providing disease details, symptoms, medications, treatments, and preventive measures in an easy-to-understand format. The platform includes an AI-powered healthcare assistant, medical report analyzer, intelligent disease search, user authentication, and search history, enabling users to access reliable healthcare information through an intuitive interface.",
-    tags: [
-    "AI Integration",
-    "Flask",
-    "JavaScript",
-    "HTML",
-    "CSS"
-  ],
-  images: [
-    "images/medicue-dashboard.png"
-  ],
-  demo: "https://medical-cue.onrender.com",
-  github: "https://github.com/rupalirudresh-18/MedicalCUE"
-    },
-
-    {
+ {
        status: "Personal Project",
   title: "College Results Analytics System",
   subtitle: "Academic Result Management & Analytics Platform",
@@ -122,6 +102,47 @@ const portfolioData = {
   demo: "https://college-result-analytics.onrender.com",
   github: "https://github.com/rupalirudresh-18/College-Result-Analytics"
     },
+    {
+  status: "Personal Project",
+  title: "ARCA — AI Marketing Platform",
+  subtitle: "AI-Powered Brand Intelligence & Marketing Strategy Generator",
+  desc: "Built a full-stack AI marketing platform that transforms a product description into a complete marketing strategy. The system performs deep brand extraction (USP, competitors, luxury score, packaging analysis), generates an 8-dimension AI Marketing Score, produces Instagram captions in 3 versions, ad copy for 4 platforms, hooks, email subject lines, reel scripts, carousel decks, UGC campaigns, and a full marketing intelligence report with SWOT analysis, competitor breakdown, 3-month strategy, and budget allocation. Features a context-aware AI Chat assistant that knows the full brand profile, persistent PostgreSQL storage, and a smart dashboard with personalized insights.",
+  tags: [
+    "Next.js 15",
+    "TypeScript",
+    "Node.js",
+    "Express",
+    "PostgreSQL",
+    "Llama 3.3 70B",
+    "Tailwind CSS"
+  ],
+  images: [
+    "images/arca-homepage.png",
+    "images/arca-analysis.png"
+  ],
+  demo: "https://arca-frontend-xxxx.onrender.com",
+  github: "https://github.com/rupalirudresh-18/Arca"
+},
+
+    {
+       status: "Personal Project",
+    title: "MediCue — AI-Integrated Healthcare Assistant",
+    subtitle: "Intelligent Healthcare Information System",
+    desc: "Developed an AI-powered healthcare web application that simplifies medical information by providing disease details, symptoms, medications, treatments, and preventive measures in an easy-to-understand format. The platform includes an AI-powered healthcare assistant, medical report analyzer, intelligent disease search, user authentication, and search history, enabling users to access reliable healthcare information through an intuitive interface.",
+    tags: [
+    "AI Integration",
+    "Flask",
+    "JavaScript",
+    "HTML",
+    "CSS"
+  ],
+  images: [
+    "images/medicue-dashboard.png"
+  ],
+  demo: "https://medical-cue.onrender.com",
+  github: "https://github.com/rupalirudresh-18/MedicalCUE"
+    },
+
     {
       status: "Data Visualization",
   title: "Customer Churn Analysis Dashboard",

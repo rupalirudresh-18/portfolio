@@ -446,10 +446,10 @@ const certCount = d.achievements.filter(a => a.badge.toLowerCase().includes('cer
 const hackCount = d.achievements.filter(a => a.badge.toLowerCase().includes('hackathon') || a.badge.toLowerCase().includes('technical event')).length;
 const cgpaVal = d.about.info[d.about.highlightKey] || '';
 document.getElementById('stats-row').innerHTML = `
-  <div class="stat-box"><div class="num">${cgpaVal}</div><div class="label">CGPA</div></div>
-  <div class="stat-box"><div class="num">${d.projects.length}</div><div class="label">Projects Built</div></div>
-  <div class="stat-box"><div class="num">${certCount}</div><div class="label">Certifications</div></div>
-  <div class="stat-box"><div class="num">${hackCount}</div><div class="label">Hackathons & Events</div></div>
+  <div class="stat-box"><div class="num">${cgpaVal}+</div><div class="label">CGPA</div></div>
+  <div class="stat-box"><div class="num">${d.projects.length}+</div><div class="label">Projects Built</div></div>
+  <div class="stat-box"><div class="num">${certCount}+</div><div class="label">Certifications</div></div>
+  <div class="stat-box"><div class="num">${hackCount}+</div><div class="label">Hackathons & Events</div></div>
 `;
 
 // ---- About ----
