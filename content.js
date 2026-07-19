@@ -119,7 +119,7 @@ const portfolioData = {
   images: [
     "images/homepage.png"
   ],
-  demo: "https://arca-frontend-xxxx.onrender.com",
+  demo: "https://arca-frontend-spqm.onrender.com",
   github: "https://github.com/rupalirudresh-18/Arca"
 },
 
